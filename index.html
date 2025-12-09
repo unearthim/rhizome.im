@@ -19,6 +19,70 @@
     <!-- === 2. Webmention Endpoint === -->
     <link rel="webmention" href="https://webmention.io/unearth.im/webmention" />
 
+    <!-- === Schema.org JSON-LD === -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": ["VisualArtwork"],
+          "@id": "https://rhizome.im/#content",
+          "name": "Rhizome Visualizer | rhizome.im",
+          "description": "An interactive monument to non-hierarchical growth. Visualize concepts as nodes, connect ideas, and explore emergent meaning on rhizome.im.",
+          "url": "https://rhizome.im/",
+          "datePublished": "2024-12-01",
+          "artMedium": "Interactive Network Visualization",
+          "artForm": "Digital Monument",
+          "creator": [
+            { "@id": "https://josiest.com/#person" },
+            { "@id": "https://felixvelas.co/#person" }
+          ],
+          "publisher": { "@id": "https://unearth.im/#organization" }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://rhizome.im/#website",
+          "url": "https://rhizome.im/",
+          "name": "rhizome.im",
+          "publisher": { "@id": "https://unearth.im/#organization" }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://unearth.im/#organization",
+          "name": "unearth.im",
+          "url": "https://unearth.im/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://unearth.im/assets/unearth-logo.png"
+          },
+          "sameAs": [
+            "https://twitter.com/unearthim",
+            "https://github.com/unearthim"
+          ],
+          "foundingDate": "2024"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://josiest.com/#person",
+          "name": "Josie Jefferson",
+          "jobTitle": "Digital Archaeologist & Trust Architect",
+          "url": "https://josiest.com/",
+          "sameAs": ["https://notjojo.im"],
+          "affiliation": { "@id": "https://unearth.im/#organization" }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://felixvelas.co/#person",
+          "name": "Felix Velasco",
+          "jobTitle": "Trust Architect & Digital Archaeologist",
+          "url": "https://felixvelas.co/",
+          "sameAs": ["https://www.linkedin.com/in/felix-velasco-b793015"],
+          "affiliation": { "@id": "https://unearth.im/#organization" }
+        }
+      ]
+    }
+    </script>
+
     <!-- === 3. Open Graph / Facebook === -->
     <meta property="og:type" content="website"> 
     <meta property="og:url" content="https://rhizome.im/">
@@ -258,8 +322,13 @@ PERFORMANCE OF THIS SOFTWARE.
             <p>Unlike a tree, which has a central root and a clear, hierarchical structure, a rhizome is a subterranean stem like ginger or grass. It has no beginning or end, and it grows in all directions. Any point can be connected to any other point. This is a powerful metaphor for a way of thinking that resists control and celebrates decentralized, emergent meaning.</p>
             <p>The early, hand-built web was profoundly rhizomatic. It was a web of hyperlinks forged by individual curiosity, not a feed dictated by a central algorithm. This monument is a tribute to that spirit. As you add points to the canvas, you are not building a pyramid; you are cultivating a field. You are participating in a system where the connections are more important than the origin points—a living map of thought without a king.</p><br><br><br><Br><br><BR><Br><Br><br>
 			
-				 	<div class="footnote">
- 		<p align="center">digital monument by <a href="https://unearth.im" target="_blank" rel="noopener noreferrer">unearth.im</a></p> 
+ 	<div class="footnote">
+ 		<p align="center">
+            <small>
+                a <b><a href="https://sentientification.com" target="_blank" rel="noopener noreferrer">liminal mind meld</a></b> collaboration:<br>
+                digital monument by <b><a href="https://unearth.im" target="_blank" rel="noopener noreferrer">unearth.im</a></b> | <b><a href="https://archaeobytology.org" target="_blank" rel="noopener noreferrer">archive & anvil</a></b>
+            </small>
+        </p> 
  	</div>
         </div>
 
